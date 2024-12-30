@@ -17,14 +17,14 @@ const Main = () => {
     return (
         <div className='main'>
             <div className='nav'>
-                <p>Gemini</p>
-                <img src={assets.user_icon} alt='User Icon' />
+                <p>Agentic AI</p>
+                <img src="https://img.freepik.com/free-vector/spring-background-with-girl-floral-wreath_23-2147620260.jpg?t=st=1735569972~exp=1735573572~hmac=9a1c088cfd25b1a7ef99a67cfd0bb3276d21ebb008dd4e00bf0cf0d0e35a0781&w=826" alt='User Icon' />
             </div>
             <div className='main-container'>
                 {!showResult ? (
                     <>
                         <div className='greet'>
-                            <p><span>Hello, Dev.</span></p>
+                            <p><span>Hello, Sapna.</span></p>
                             <p>How can I help you today?</p>
                         </div>
                         <div className='cards'>
@@ -49,7 +49,7 @@ const Main = () => {
                 ) : (
                     <div className='result'>
                         <div className='result-title'>
-                            <img src={assets.user_icon} alt='User Icon' />
+                            <img src="https://img.freepik.com/free-vector/spring-background-with-girl-floral-wreath_23-2147620260.jpg?t=st=1735569972~exp=1735573572~hmac=9a1c088cfd25b1a7ef99a67cfd0bb3276d21ebb008dd4e00bf0cf0d0e35a0781&w=826" alt='User Icon' />
                             <p>{recentPrompt}</p>
                         </div>
                         <div className='result-data'>
